@@ -1,20 +1,19 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import App from './App';
-
+import Main from './components/main/Mains/main'
 
 
 test('renders main heading', () => {
-  const renderObj = render(<App />);
-  const linkElement = renderObj.getByText(/Timer Application/i);
+  const renderObj = render(<Main />);
+  const linkElement = renderObj.getByText(/STOPWATCH/i);
 
   expect(linkElement).toBeInTheDocument();
 });
 
 
 test('renders timer component', () => {
-  const renderObj = render(<App />);
-  const linkElement = renderObj.getByTestId(/timer/i);
+  const renderObj = render(<Main />);
+  const linkElement = renderObj.getAllByTestId(/stopwatch/i);
 
   expect(linkElement).toBeInTheDocument();
 });

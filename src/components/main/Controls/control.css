@@ -1,0 +1,21 @@
+.stopwatch-controls-container button {
+    margin: 15px;
+    border: none;
+    background-color: #e5ad3d;
+    padding: 3px 12px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    cursor: pointer;
+    
+}
+button:hover{
+    color :rgb(182, 132, 68)
+}
+h1{
+    color:rgba(24, 88, 64, 0.925)
+}
+h1{
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 50pt;
+     font-weight: 400;
+}
