@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Raleway+Dots&display=swap');
+
+#wrapper {
+  display: flex;
+   flex-direction: column;
+   justify-content: center;
+   justify-items: center;
+   align-items: center; 
+}
+#displayContainer{
+   font-family: 'Orbitron', sans-serif;
+   border: 2px solid #496e4b;
+   border-width: 5px;
+   padding: 20px;
+   min-width: 300px;
+   font-size: 100px;
+   background-color: rgb(21, 50, 74);
+   box-shadow: 12px 17px 29px rgb(57, 49, 160);
+   color: rgb(255, 255, 255);
+}
+#buttonsContainer{
+   margin-top: 30px;
+   display: flex;
+   text-align: center;
+   min-width: 300px;
+ }
+.buttons{
+    border: 12px solid gray;
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    margin: 6px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    font-family: 'Tangerine';
+    font-style: oblique;
+}
+.buttons:hover{
+   background-color: #5f0f47;
+   color: white;
+   font-weight: bold;
+} 
